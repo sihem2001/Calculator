@@ -1,0 +1,58 @@
+.section1 {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  color: white;
+  font-weight: bold;
+}
+.titre {
+  margin-top: 30px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  justify-content: flex-end;
+  margin-left: 100px;
+}
+.number {
+  padding-right: 30px;
+}
+.theme {
+  margin-top: 0px;
+}
+.theme p {
+  margin-left: 30px;
+}
+label {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+
+  align-items: center;
+
+  position: relative;
+  left: 44%;
+  top: -19px;
+}
+@media (max-width: 504) {
+  label {
+    left: 59%;
+    top: 49px;
+  }
+}
+
+label span {
+  width: 20px;
+  height: 18px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 3px;
+}
